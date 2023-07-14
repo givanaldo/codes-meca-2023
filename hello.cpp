@@ -2,7 +2,14 @@
 using namespace std;
 
 int main() {
-    cout << "Oi turma!" << endl;
+    int idade;
+    string nome;
+    cout << "Nome: ";
+    cin >> nome;
+    cout << "Idade: ";
+    cin >> idade;
+    cout << "Seu nome é " << nome 
+        << " e sua idade é " << idade;
     return 0;
 }
 

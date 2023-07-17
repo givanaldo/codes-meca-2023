@@ -5,7 +5,8 @@ int main() {
     int idade;
     string nome;
     cout << "Nome: ";
-    cin >> nome;
+    // cin >> nome;
+    getline(cin, nome);
     cout << "Idade: ";
     cin >> idade;
     cout << "Seu nome é " << nome 

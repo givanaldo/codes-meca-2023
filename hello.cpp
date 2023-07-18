@@ -1,7 +1,9 @@
 #include <iostream>
+#include <locale.h>
 using namespace std;
 
 int main() {
+    
     int idade;
     string nome;
     cout << "Nome: ";
@@ -9,7 +11,7 @@ int main() {
     cout << "Idade: ";
     cin >> idade;
     cout << "Seu nome é " << nome 
-        << " e sua idade é " << idade;
+         << " e sua idade é " << idade;
     return 0;
 }
 

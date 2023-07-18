@@ -1,18 +1,19 @@
 #include <iostream>
-#include <locale.h>
+//#include <windows.h>
+//#include <locale>
+
 using namespace std;
 
 int main() {
-    
-    int idade;
-    string nome;
-    cout << "Nome: ";
-    // cin >> nome;
-    getline(cin, nome);
-    cout << "Idade: ";
-    cin >> idade;
-    cout << "Seu nome é " << nome 
-         << " e sua idade é " << idade;
+    //setlocale(LC_ALL, "pt-BR.UTF8");
+    //SetConsoleCP(CP_UTF8);
+    //SetConsoleOutputCP(CP_UTF8);
+    string turma = "Mecatrônica";
+    cout << "Olá turma de " << turma;
+    cout << "\nDigite algo: ";
+    string algo;
+    cin >> algo;
+    cout << "Digitado: " << algo;
     return 0;
 }
 

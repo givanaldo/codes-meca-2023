@@ -9,8 +9,8 @@ int main() {
     getline(cin, nome);
     cout << "Idade: ";
     cin >> idade;
-    cout << "Seu nome é " << nome 
-        << " e sua idade é " << idade;
+    cout << "Seu nome: " << nome << endl;
+    cout << "Sua idade: " << idade;
     return 0;
 }
 

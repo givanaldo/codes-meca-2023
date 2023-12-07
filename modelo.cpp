@@ -4,6 +4,6 @@ using namespace std;
 int main() {
 
     cout << fixed << setprecision(2);
-    cout << "o resultado" << endl;
+    cout << "resultado" << endl;
     return 0;
 }

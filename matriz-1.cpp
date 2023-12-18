@@ -11,9 +11,9 @@ int main() {
     }
     for (int i=0; i<lin; i++) {
         for (int j=0; j<col; j++) {
-            cout << matriz[i][j] << " ";
+            cout << matriz[i][j] << "  ";
         }
+        cout << endl;
     }
-
     return 0;
 }
